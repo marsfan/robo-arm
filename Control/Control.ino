@@ -19,8 +19,5 @@ void loop(){
 		//print down
 		Serial.println("DOWN");
 		}
-	else if(digitalRead(2) == LOW && digitalRead(3) == LOW){
-		Serial.println(" ");
-		}
 	}
 
