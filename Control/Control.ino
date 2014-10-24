@@ -1,6 +1,6 @@
 void setup(){
 	for(int i = 2; i < 8; i++){
-		pinMode(i, INPUT);
+		pinMode(i, INPUT_PULLUP);
 	}
 	for(int i = 8; i < 14; i++){
 		pinMode(i, OUTPUT);
