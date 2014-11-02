@@ -15,7 +15,7 @@ int bleedOff = LOW;
 void setup(){
 	//init pins for toggle switch
 	pinMode(pinUp, INPUT_PULLUP);
-	pinMode(pinDown, INPUT_PULLUP):	
+	pinMode(pinDown, INPUT_PULLUP);	
 	//set up motor shield
 	pinMode(bleed, OUTPUT);
 	pinMode(valve, OUTPUT);
