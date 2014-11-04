@@ -23,6 +23,8 @@ void setup(){
 	pinMode(valvePower, OUTPUT);
 	//set up serial monitor
 	Serial.begin(9600);
+	digitalWrite(bleed, bleedOff);
+	digitalWrite(valve, valveOff);
 }
 
 void loop(){
